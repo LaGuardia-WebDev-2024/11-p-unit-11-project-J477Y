@@ -4,20 +4,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-/*   margin-top: 10%; */
   font-family: Georgia, serif;
 }
 
-html{
+html {
   height: 100%;
   width: 100%;
 }
 
 #myCanvas {
+  background-image: url("https://t3.ftcdn.net/jpg/03/91/51/28/360_F_391512857_TpV6ZVnvR5fFxYZgGONNb14e6u6zho60.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attatchment: fixed;
+  width: 600px;
+  height: 450px;
   border: 1px solid black;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -26,22 +31,41 @@ html{
   padding-bottom: 20px;
 }
 
-.pic{
+.pic {
   height: 450px;
   width: 600px;
   object-fit: cover;
   border: 1px solid black;
 }
 
-h2{
+h2 {
   color: black;
-/*   font-size: 10px; */
 }
 
-#start{
+#start {
   text-align: left;
 }
 
-#end{
+#end {
   text-align: right;
+}
+
+/* ✅ New CSS Declarations */
+#lyrics-info {
+  font-size: 16px;
+  margin-top: 10px;
+  color: blue;
+}
+
+#extra-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: red;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-top: 5px;
+  cursor: pointer;
 }
